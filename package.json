@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "proxy": "http://localhost:3000/",
+  "engines": {
+    "node": "16.x"
+  },
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",

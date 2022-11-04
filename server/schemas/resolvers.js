@@ -16,7 +16,7 @@ const resolvers = {
 
             throw new AuthenticationError('Not logged in')
 
-        }, 
+        },
     },
     Mutations: {
         addUser: async (parent, args) => {
